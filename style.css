@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+.shapka {
+    display: flex;
+    width: 375px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.arm{
+    color:#f86600;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+.arm2 {
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+.ear {
+    background: url(/Photo/e1.jpg) -400.71px -23.747px / 205.953% 111.421% no-repeat;
+    width: 536px;
+    height: 620px;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.table{
+    display: flex;
+    width: 402px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.ast {
+    font-family:Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+}
+.km{
+    color: white;
+    font-family:Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.pal {
+    color: white;
+    font-family:Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.lun {
+    color: white;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.frame2{
+    color: white;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.frame3{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.frame4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.mm{
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} 
+.com1 {
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+.com2{
+    background: url(/Photo/pngegg\ 1.png) no-repeat;
+    width: 22px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.frame5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}  
+.fq{
+    color: white;
+    font-family:Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration-line: underline;
+} 
+.cir{
+    color: white;
+    font-family:Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.niz{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.bot{
+    display: flex;
+    padding: 2px 11px;
+    align-items: center;
+    gap: 2px;
+    border-radius: 16px;
+    background-color: orange;
+}
+.ord {
+    color: white;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.dan {
+    color: gray;
+    font-family: helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.com3{
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+.com4{
+    background: url(/Photo/pngegg\ 2.png) no-repeat;
+    width: 36px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.ord2{
+    background-color: brown;
+    color: orange;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.bot2{
+    display: flex;
+    padding: 2px 11px;
+    align-items: center;
+    gap: 2px;
+    border-radius: 16px;
+    background-color: brown;
+}
+.botom{
+    display: flex;
+    width: 150px;
+    padding: 16px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    background-color: #232526;
+}
+.korz {
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.aster{
+    color: white;
+    font-family: helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.otp{
+    display: flex;
+    height: 48px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 40px;
+    background-color: #f86600;
+}
+.bip{
+    color: white;
+    font-family: helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
